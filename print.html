@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Artistic Design Mastery from a Hobbyist - ADeM</title>
+                <meta name="robots" content="noindex" />
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="favicon.svg">
+                        <link rel="shortcut icon" href="favicon.png">
+                <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+                <link rel="stylesheet" href="css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="00-cover.html">Cover</a></li><li class="chapter-item expanded affix "><a href="01-acknowledgments.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="02-disclaimer.html">Disclaimer</a></li><li class="chapter-item expanded affix "><a href="03-about.html">About</a></li><li class="chapter-item expanded "><a href="04-design-tidbits.html"><strong aria-hidden="true">1.</strong> Design Tidbits</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="04-design-tidbits-01-line.html"><strong aria-hidden="true">1.1.</strong> Line</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="04-design-tidbits-01-line-01-confident.html"><strong aria-hidden="true">1.1.1.</strong> Confident</a></li><li class="chapter-item expanded "><a href="04-design-tidbits-01-line-02-clean.html"><strong aria-hidden="true">1.1.2.</strong> Clean</a></li><li class="chapter-item expanded "><a href="04-design-tidbits-01-line-03-weight.html"><strong aria-hidden="true">1.1.3.</strong> Weight</a></li><li class="chapter-item expanded "><a href="04-design-tidbits-01-line-04-imply.html"><strong aria-hidden="true">1.1.4.</strong> Imply</a></li><li class="chapter-item expanded "><a href="04-design-tidbits-01-line-05-shapes.html"><strong aria-hidden="true">1.1.5.</strong> Shapes</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.6.</strong> Overlap</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.7.</strong> Section</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.8.</strong> Texture</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.9.</strong> Focus</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.10.</strong> Space</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.11.</strong> Heuristics</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.2.</strong> Perspective</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.3.</strong> Color</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.3.1.</strong> Edges</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.</strong> Extra</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.1.</strong> Thickness</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.2.</strong> Relate</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.3.</strong> Mirror</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.4.</strong> Exaggerate</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.5.</strong> Generate</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.6.</strong> Brainstorm</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.7.</strong> Iterate</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.8.</strong> Meditate</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.9.</strong> Breaks</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.10.</strong> Kitbash</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.11.</strong> Shape brush</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.12.</strong> Blend modes</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.4.13.</strong> Convention</div></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Checklist</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Feedback</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Demo</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="07-demo-01-organic.html"><strong aria-hidden="true">4.1.</strong> Organic</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="07-demo-01-organic-wk-01.html"><strong aria-hidden="true">4.1.1.</strong> Wk.01</a></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Showcase</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="08-showcase-wk-01-02-organic.html"><strong aria-hidden="true">5.1.</strong> Wk.01.02. Organic</a></li></ol></li><li class="chapter-item expanded "><a href="TODO.html">TODO</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Artistic Design Mastery from a Hobbyist - ADeM</h1>
+
+                    <div class="right-buttons">
+                                                <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><img src="./assets/images/00-cover.png" alt="" /></p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="todo"><a class="header" href="#todo">TODO:</a></h1>
+<ul>
+<li>acknowledge creators of free online courses</li>
+</ul>
+<hr />
+<h1 id="acknowledgments"><a class="header" href="#acknowledgments">Acknowledgments</a></h1>
+<table style="width: 100%;">
+  <tr>
+   <td>Sebastian Tiplea</td>
+   <td style="text-align: right">
+     <a href="https://linktr.ee/tiplosu" target="blank">
+       <img style="height: 1.6rem" src="./assets/images/icon-linktree.png">
+     </a>
+   </td>
+  </tr>
+  <tr>
+   <td>Brainwash</td>
+   <td style="text-align: right">
+     <a href="https://discord.gg/SC6spQt" target="blank">
+       <svg style="height: 1.8rem" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="discord" class="svg-inline--fa fa-discord fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#434343" d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"></path></svg>     </a>
+   </td>
+  </tr>
+</table>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="disclaimer"><a class="header" href="#disclaimer">Disclaimer</a></h1>
+<p>I’m a self-taught digital art student. I wouldn’t call myself an artist.</p>
+<p>My academic background is in physics and IT. I’m currently working as a freelance programmer and do digital art on the side as a hobby.</p>
+<p>I’ve been doing digital art on-and-off for about five years at the point of this writing. But I haven’t been consistent with it and haven’t gone beyond an average level of appeal with my designs and paintings.</p>
+<p>I created this document to improve my digital art skills faster by following a structured approach and teaching some of the techniques used in draftsmanship and painting along the way.</p>
+<p>Within it, you find general drawing and painting techniques taught in many other places and, hopefully, a showcase on applying them to drive self-improvement.</p>
+<p><strong>We’re in the context of a Romanian Discord server - Brainwash, making up a small community of 2D and 3D designers. We came up with this structured learning approach within this server by taking inspiration from other free online learning resources.</strong></p>
+<p>The approach discussed here works best within a community because it relies on active feedback and constructive criticism.</p>
+<table style="width: 100%">
+  <tr>
+    <td>Răzvan Cosmin Rădulescu AKA razcore-rad</td>
+    <td style="text-align: right">
+      <a href="https://linktr.ee/razcore.rad" target="blank">
+        <img style="height: 1.6rem" height="18px" src="./assets/images/icon-linktree.png">
+      </a>
+    </td>
+  </tr>
+</table>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="about"><a class="header" href="#about">About</a></h1>
+<p>What is &quot;Artistic Design Mastery from a Hobbyist&quot;? Referred to as <strong>ADeM</strong> from now on.</p>
+<p>It’s a &quot;live&quot; document that serves two purposes:</p>
+<ol>
+<li>First, it compiles a list of useful short <strong>snippets</strong> for explaining particular <strong>drawing</strong> and <strong>painting</strong> techniques.</li>
+<li>Second, it’s an evolving showcase of how to achieve design mastery through building a sizable visual library covering many topics that fall broadly under these categories: <strong>organic</strong>, <strong>hard-surface</strong>, and <strong>figure</strong>.</li>
+</ol>
+<p>The organic category includes anything that generally has rounder or bendy forms. This includes insects, arachnids, fish, small birds and animals, plants, natural rock formations, and other man-made objects such as accessories, flour sacks, backpacks, etc.</p>
+<p>Hard-surface includes mainly man-made structures and objects such as everyday items including cars, boats, airplanes, tanks, furniture. Futuristic devices, MECHs, and more also fall under this category.</p>
+<p>Lastly, the figure category refers mainly to the human figure, but we include large animals with more complex anatomy.</p>
+<p>We use a two-week cycle that keeps things exciting and diverse while covering a broad range of topics as we develop our drawing and painting techniques.</p>
+<p>We divide the <strong>first week</strong> into three phases:</p>
+<ol>
+<li><strong>First, we understand</strong> the subject matter from the given reference images using the draw-through method to decipher how the volumes relate to each other in 3D space.</li>
+<li><strong>In the second part, we master</strong> the subject by doing refined drawings <strong>using more precise 3D forms</strong>. After learning the forms, <strong>we texture them</strong> following the reference images. <strong>We end this part with complete textured illustrations</strong>.</li>
+<li><strong>We solidify our visual library by combining the given references to design an imagined object or creature</strong>. Students can challenge themselves by creating extra designs with elements not covered by the provided reference images.</li>
+</ol>
+<p>In the <strong>second week</strong>, we build on top of the previous one by painting our designs. Therefore, we divide this week into two phases:</p>
+<ol>
+<li><strong>We start with material studies</strong> using the same references from the first week. It helps us understand how light interacts with the subject matter that we designed in the previous week.</li>
+<li><strong>In the second phase, we paint the designs under different light conditions</strong> to solidify how everything is tied in together.</li>
+</ol>
+<p>While attending the program, students are encouraged to give the other participants constructive feedback as much as possible.</p>
+<h2 id="software"><a class="header" href="#software">Software</a></h2>
+<img style="height: 9rem" src="./assets/images/icon-pureref.png">
+<p>We use <a href="https://www.pureref.com/">PureRef</a>, a free image reference software, for distributing reference image sets from online resources.</p>
+<p><strong>Verify their LICENSE agreements if you want to use them for your professional work.</strong></p>
+<p>Other than PureRef, there’s no requirement for the software you want to sketch with. Or, if you prefer, you can do the exercises traditionally.</p>
+<p>To download the PureRef file, click on the image preview for that week:</p>
+<p><a href="./assets/references/organic-wk-01-02.pur"><img src="./assets/images/pureref-organic-wk-01-02.png" alt="" /></a></p>
+<img style="height: 9rem" src="./assets/images/icon-blender.png">
+<p><a href="https://www.blender.org/">Blender</a> is a free 3D software that can help us understand how forms turn in space and perspective while being affected by different lenses covering orthographic, one, two, three-point-perspective, and even fisheye.</p>
+<p>I suggest using it from time to time by building rough 3D models of your complex designs to build an intuition for how everything fits together.</p>
+<p>This isn’t mandatory, but I think it dramatically improves our learning process.</p>
+<img style="height: 9rem" src="./assets/images/icon-krita.png">
+<p>For completeness sake, I’ll mention that I’m using <a href="https://krita.org/en/">Krita</a>, a free painting software. I made my own brushes, which are part of <a href="https://github.com/razcore-code/krita-resources">my larger package set</a> available for free.</p>
+<p>I prefer a traditional look even though I work digitally.</p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="./assets/images/04-title.png" alt="" /></p>
+<p>&quot;Design tidbits&quot; are collections of techniques and explanations illustrated in bite-sized snippets.</p>
+<p>We start with the obvious and gradually move into the not-so-obvious.</p>
+<p>I’m speaking in the context of digital art, but most of these concepts apply to any medium.</p>
+<p>I break these into three sections:</p>
+<ol>
+<li><strong>Line</strong>. The focus here is line-art, no color - the simplest way to put ideas on canvas.</li>
+<li><strong>Perspective</strong>. Tips on perspective and lenses.</li>
+<li><strong>Color</strong>. Take the line-art to the next level with color. Or completely upgrade to painting.</li>
+<li><strong>Extra</strong>. Explorative ideas on coming up with designs in the first place.</li>
+</ol>
+<p><strong>Pick and choose which techniques you want to use during your practice, and do it deliberately!</strong></p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="design-tidbits--line"><a class="header" href="#design-tidbits--line">Design Tidbits &gt; Line</a></h1>
+<p>Here, we have a collection of techniques and explanations using the simplest method of transferring ideas from our brain onto the canvas.</p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="design-tidbitsi--line--confident"><a class="header" href="#design-tidbitsi--line--confident">Design Tidbitsi &gt; Line &gt; Confident</a></h1>
+<p>Use a hard brush with little to no opacity. For example, I’m using a brush with this form:</p>
+<img style="height: 10rem" src="./assets/images/04-01-01-brush.png">
+<p>I use 100% opacity and an exponential curve for the flow setting. So it has a very faint degree of transparency but quickly becomes opaque with very little pressure on the stylus.</p>
+<p><img src="./assets/images/04-01-01-stroke.png" alt="" /></p>
+<p>At first, you’ll be tempted to erase and skip the draw-through method. However, it’s in your interest to incorporate this method into your practice.</p>
+<p><strong>Avoid scratchy lines and drawing many times over the same place. Force yourself to avoid erasing as much as possible!</strong></p>
+<img style="width: 40rem" src="./assets/images/04-01-01-avoid.png">
+<h2 id="technique"><a class="header" href="#technique">Technique</a></h2>
+<p>When it comes to precision, it’s essential to know when to use your wrist, elbow, and shoulder to generate the most efficient stroke.</p>
+<p>We develop a feeling for as long as we’re conscious of our strokes when practicing and correcting if needed.</p>
+<p>It’s not a matter of one being better than the other.</p>
+<img style="width: 40rem" src="./assets/images/04-01-01-technique.png">
+<p>For example, it makes no sense to use your shoulder to draw a tiny circle. That’s when you use the wrist.</p>
+<p><strong>Pick and choose the best tool for the job you need to do.</strong></p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="design-tidbits--line--clean"><a class="header" href="#design-tidbits--line--clean">Design Tidbits &gt; Line &gt; Clean</a></h1>
+<p>Confidence and getting a clean look are sides of the same coin. They both contribute to an appealing design that looks skillfully executed.</p>
+<p>Get clean drawings by first aligning your canvas with your natural hand position.</p>
+<img style="width: 40rem" src="./assets/images/04-01-02-rotate.png">
+<h2 id="lines"><a class="header" href="#lines">Lines</a></h2>
+<p>For lines, follow these steps with your canvas zoomed out to have a shorter distance to traverse.</p>
+<p><strong>Don’t go too much beyond the reference points!</strong></p>
+<img style="width: 40rem" src="./assets/images/04-01-02-lines.png">
+<p>These can also be imaginary points that naturally appear in your drawing as you advance the design.</p>
+<p>It makes sense to plot the reference points only if you’re unsure if the drawing is enough.</p>
+<h2 id="curves"><a class="header" href="#curves">Curves</a></h2>
+<p>For curves, we use the same approach as we did for the line.</p>
+<p><strong>Don’t stress about making the motion in one continuous shot!</strong> Instead, we can combine multiple strokes as long as we build that confidence! See the <a href="./04-design-tidbits-01-line-01-confident.html">previous section</a>.</p>
+<img style="width: 40rem" src="./assets/images/04-01-02-curves.png">
+<p>We don’t necessarily try touching every single guiding point other than the ends.</p>
+<h4 id="ellipses"><a class="header" href="#ellipses">Ellipses</a></h4>
+<p>For ellipses and circles, find guides in your drawing or add them yourself to align them properly in space.</p>
+<p><strong>Don’t draw more than one or two revolutions!</strong></p>
+<img style="width: 40rem" src="./assets/images/04-01-02-ellipses.png">
+<p>These guides converge to vanishing points on the horizon line.</p>
+<p>When doing freehand drawings, it’s challenging to get the tilt of the circle right. Unfortunately, there isn’t a simple method that we can use to “get things right”.</p>
+<p>We need to practice wisely.</p>
+<p>To that end, in the following image, I set Blender with a 20-degree field of view to accentuate how our intuition might be wrong about the <strong>circle</strong>’s center in perspective.</p>
+<img style="width: 40rem" src="./assets/images/04-01-02-blender-ellipse.png">
+<p>It’s notoriously difficult for beginners to get the shape of the ellipse correct. However, we can use 3D software to gain an intuition about all of this and more.</p>
+<p>I encourage you to use 3D software when you don’t know how things align in 3D space.</p>
+<p><strong>The ellipse is cut perfectly in half by the green (Y) perpendicular perspective line. This is because it acts as the minor ellipse axis.</strong></p>
+<p>When you first start, it’s difficult, so don’t be hard on yourself. It takes lots of patience and practice!</p>
+<h4 id="overshoot"><a class="header" href="#overshoot">Overshoot</a></h4>
+<p>How to get clean lines?</p>
+<p>An easy method is to overshoot past your lines, but on separate layers, and once done cleaning up, we can safely merge the layers.</p>
+<img style="width: 40rem" src="./assets/images/04-01-02-overshoot.png">
+<p>Rinse and repeat as many times as necessary. Using shortcuts can be a swift process, and with enough practice, it can become your second nature.</p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="design-tidbits--line--weight"><a class="header" href="#design-tidbits--line--weight">Design Tidbits &gt; Line &gt; Weight</a></h1>
+<p>To get a professional look, we emphasize some lines but not others.</p>
+<img style="width: 40rem" src="./assets/images/04-01-03-example.png">
+<h2 id="where-and-why"><a class="header" href="#where-and-why">Where and why?</a></h2>
+<p>How do we know which lines to thicken?</p>
+<p>Let’s turn to real life for an explanation.</p>
+<table><thead><tr><th>Original</th><th>Adjusted - Bright</th><th>Adjusted - Dark</th></tr></thead><tbody>
+<tr><td><img src="./assets/images/04-01-03-photo-original.png" alt="" /></td><td><img src="./assets/images/04-01-03-photo-bright.png" alt="" /></td><td><img src="./assets/images/04-01-03-photo-dark.png" alt="" /></td></tr>
+</tbody></table>
+<p style="text-align: right; font-size: 1rem">
+  Photo by <a href="https://www.pexels.com/@alex-kozlov-3442124?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="blank">Alex Kozlov</a> from <a href="https://www.pexels.com/photo/city-man-people-woman-8402317/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="blank">Pexels</a>
+</p>
+<p>As design students, we need to be critical about capturing our subject once we establish the light direction.</p>
+<img style="width: 40rem" src="./assets/images/04-01-03-hats.png">
+<p>When drawing, we can play with the contrast and brightness by choosing what to detail and simplify, just like playing with photo parameters.</p>
+<p><strong>Direct light</strong> washes the information while <strong>shadow</strong> hides it. Regardless, the outcome is the same from a drawing perspective - we can omit to detail entire portions by joining them together either in light or dark.</p>
+<p>This is an opportunity for us to design appealing shapes.</p>
+<p>At the transition between direct light and shadow, we have information that translates into a rich texture.</p>
+<p><strong>Our job as artistic design students is to figure out the essence of a design. Then, we can emphasize it by establishing an appealing transition between direct light and shadow.</strong></p>
+<p>Light scenarios can be either informed by references or entirely constructed by design.</p>
+<h2 id="line-drawings"><a class="header" href="#line-drawings">Line drawings</a></h2>
+<p>How do we apply this concept to line drawings?</p>
+<img style="width: 40rem" src="./assets/images/04-01-03-weight-light.png">
+<p>Pick a <strong>light source</strong> and let that inform your decisions of where to <strong>thicken the lines</strong>. Simple as that.</p>
+<p>OK, maybe it’s not THAT simple. But, this is just one way of doing it.</p>
+<p>There may be style choices that build on top of light direction or overwrite it entirely.</p>
+<img style="width: 31rem" src="./assets/images/04-01-03-weight-contour.png">
+<p><strong>Line weight</strong> is also perfect for making <strong>overlapping shapes</strong> stand out.</p>
+<img style="width: 40rem" src="./assets/images/04-01-03-overlap.png">
+<p>The rectangle looks closer to us than the circle in the right picture because of how we used line weight.</p>
+<h2 id="ambient-occlusion"><a class="header" href="#ambient-occlusion">Ambient occlusion</a></h2>
+<p>Another method to enrich the drawings is to thicken the lines where we have ambient occlusion (AO).</p>
+<p>When discussing drawing and painting, ambient occlusion refers to areas where light can’t reach, like crevices.</p>
+<p>Can you spot the places where I emphasized the AO?</p>
+<img style="width: 20rem" src="./assets/images/04-01-03-ao.png">
+<p>The term ambient occlusion comes from computer graphics.</p>
+<h2 id="design-for-animation"><a class="header" href="#design-for-animation">Design for animation</a></h2>
+<p>I just wanted to mention that designing for animation is usually very different. They don’t care about the fancy line weights. They’re interested in clean same-thickness lines because they have to keep the drawings consistent across frames.</p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="design-tidbits--line--imply"><a class="header" href="#design-tidbits--line--imply">Design Tidbits &gt; Line &gt; Imply</a></h1>
+<p>Our brain is smart enough to fill in the dots. There’s so much that the brain constructs for us to interpret reality than we think.</p>
+<p><strong>Don’t always draw every little line. Our brains can fill in the blanks!</strong></p>
+<img style="width: 40rem" src="./assets/images/04-01-04-lips.png">
+<p>This works in our favor. Beginners make the mistake of drawing the whole contour all the time when we can imply so much of it.</p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="design-tidbits--line--shapes"><a class="header" href="#design-tidbits--line--shapes">Design Tidbits &gt; Line &gt; Shapes</a></h1>
+<p>What do we mean when we say appealing shapes?</p>
+<p>Our <strong>brains are pattern-seeking machines</strong>, and we can use this to our advantage when designing.</p>
+<p><strong>The appeal doesn’t reside in shapes themselves. Instead, it arises in the distribution of many shapes that create illusions of patterns.</strong></p>
+<p>There’s a reason why it’s shape<strong>S</strong> and <strong>not</strong> shape!</p>
+<p>To exemplify, I made a bunch of seemingly random shapes (left). I didn’t think of anything specific. I just made some scribbles and barely refined them.</p>
+<p>I took the shapes and organized them into a “composition” (right).</p>
+<p><img src="./assets/images/04-01-05-shapes.png" alt="" /></p>
+<p>The point here isn’t to make something look nice but to show how just by <strong>placing shapes deliberately, our brain interprets them as meaningful patterns. It creates stories for us that fill in the blanks.</strong></p>
+<p>It’s just like cloud-gazing.</p>
+<p>The next step is to clean up the interior of the silhouette and apply some of the other techniques.</p>
+<p>In the following image, I barely cleaned the interior, and it already looks much better. I didn’t even touch the non-overlapping shapes to the top-left.</p>
+<img style="width: 40rem" src="./assets/images/04-01-05-cleanup.png">
+<p>An exception to this explanation is that our brains can interpret secondary forms at the border as distinct shapes when designing large areas. But then, <strong>it’s the distribution of those secondary forms that our brain recognizes as meaningful patterns</strong>.</p>
+<p>Ultimately, <strong>this is a balancing act between chaos and deliberate placement</strong>. Too much in one direction, and we break the illusion.</p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="demo--organic"><a class="header" href="#demo--organic">Demo &gt; Organic</a></h1>
+<p>For this demo I chose:</p>
+<ol>
+<li>Komodo dragon</li>
+<li>Horns</li>
+<li>Squid</li>
+</ol>
+<p>Download the PureRef file by clicking the image:</p>
+<p><a href="./assets/references/demo-organic.pur"><img src="./assets/images/pureref-demo-organic.png" alt="" /></a></p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="demo--organic--wk01"><a class="header" href="#demo--organic--wk01">Demo &gt; Organic &gt; Wk.01</a></h1>
+<h2 id="1-understand"><a class="header" href="#1-understand">1. Understand</a></h2>
+<p>Pick a few reference images from each provided subject matter and decipher them with the help of <strong>logical basic 3D forms</strong>.</p>
+<p><img src="./assets/images/07-01-01-understand-breakdown-trace.png" alt="" /></p>
+<p>You don’t have to break each element into one continuous segment. For example, we can use 4 segments for the tail to better understand how it twists and turns.</p>
+<p>Ideally you want to do it without tracing, but at this point, especially if you have a hard time understanding the forms, tracing is fine, but try not to rely too much on it.</p>
+<p><img src="./assets/images/07-01-01-understand-breakdown.png" alt="" /></p>
+<p>Next, you’re going to pose your reference in perspective from different angles using the basic forms you used. <strong>I’m showing one view here, do at least two for each reference!</strong></p>
+<p><img src="./assets/images/07-01-01-understand-perspective.png" alt="" /></p>
+<p><strong>Draw through the obstructed parts! Reproduce a mannequin that feels 3D. Go for a clean and confident look and try not to erase as much.</strong></p>
+<h3 id="exceptions"><a class="header" href="#exceptions">Exceptions</a></h3>
+<p>In some cases the subject can vary a lot, for example, the horns. In this case do a <strong>breakdown for three-to-five of them</strong>.</p>
+<p><img src="./assets/images/07-01-01-understand-horns-variety.png" alt="" /></p>
+<p>When dealing with organic shapes that twist and turn wildly, it’s best to draw through the form following the twist and connecting the curves where the shape closes off:</p>
+<p><img src="./assets/images/07-01-01-understand-horns-twist.png" alt="" /></p>
+<p><strong>Use line weight to emphasise which curves are in front and which in the back!</strong></p>
+<p>Pick one that you like, and draw the subject from <strong>two different perspectives</strong>. Here I demonstrate from one:</p>
+<img style="width: 40rem" src="./assets/images/07-01-01-understand-horns-perspective.png">
+<h3 id="recap"><a class="header" href="#recap">Recap</a></h3>
+<p>If <strong>the subject matter is fairly consistent</strong>, like in the case of the komodo dragon:</p>
+<ol>
+<li>Break reference images into logical 3D forms.</li>
+<li>Draw the same breakdown in perspective from different angles. At least two angles per breakdown.</li>
+</ol>
+<p>If <strong>the subject matter has a lot of variety</strong>, like in the case of the horns:</p>
+<ol>
+<li>Do three-to-five breakdowns based on the reference images</li>
+<li>Pick one that you like the most and draw it from two different angles.</li>
+</ol>
+<h2 id="2-master"><a class="header" href="#2-master">2. Master</a></h2>
+<p>Pick the <strong>prominent features</strong> of the given subject matter and <strong>refine the 3D forms</strong>.</p>
+<p>Try drawing the selected studies from at least two different angles. <strong>Use section lines to help you understand the 3D forms.</strong></p>
+<p><strong>Ideally do these without tracing and erasing!</strong> The interlocking 3D forms should be easily distinguishable from one another.</p>
+<p><img src="./assets/images/07-01-01-master-breakdown.png" alt="" /></p>
+<p>Use guidelines if the features bend or twist in ways that make it hard to figure out.</p>
+<img style="width: 40rem" src="./assets/images/07-01-01-master-overlap.png">
+<p>Start from the back when drawing complicated overlapping shapes.</p>
+<p>Using the references as guides, texture the more advanced breakdowns. I demonstrate one here.</p>
+<p><img src="./assets/images/07-01-01-master-texture.png" alt="" /></p>
+<p>Notice how the texture is informed by the cross section lines. Although <strong>the texture doesn’t always follow precisely the cross section</strong>, the curve is informed by it.</p>
+<p><strong>Find additional references if you have trouble understanding the texture and do material studies.</strong></p>
+<p>After mastering the individual parts, pick one or more subjects, draw them in perspective using the refined 3D forms, and texture them.</p>
+<p><img src="./assets/images/07-01-01-master-perspective.png" alt="" /></p>
+<h3 id="exceptions-1"><a class="header" href="#exceptions-1">Exceptions</a></h3>
+<p>If the references provided aren’t enough, then <strong>find extra pictures with the features</strong> you want to study deeper and use those.</p>
+<p><strong>When submitting your work, attach the extra references!</strong> This will greatly help with the feedback.</p>
+<h2 id="3-invent"><a class="header" href="#3-invent">3. Invent</a></h2>
+<p><img src="./assets/images/07-01-01-invent-example.png" alt="" /></p>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="showcase--wk0102-organic"><a class="header" href="#showcase--wk0102-organic">Showcase &gt; Wk.01.02. Organic</a></h1>
+<p>Selection:</p>
+<ul>
+<li>Beetles</li>
+<li>Dragonflies</li>
+<li>Plants</li>
+</ul>
+<p>Download the PureRef file by clicking the image:</p>
+<p><a href="./assets/references/organic-wk-01-02.pur"><img src="./assets/images/pureref-organic-wk-01-02.png" alt="" /></a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="todo-1"><a class="header" href="#todo-1">TODO</a></h1>
+<ul>
+<li>Link to Light Theory doc</li>
+</ul>
+<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+                        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+                
+    </body>
+</html>
