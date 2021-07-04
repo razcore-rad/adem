@@ -1,6 +1,14 @@
 [book]
-authors = ["Răzvan Cosmin Rădulescu"]
+authors = ["Răzvan C. Rădulescu"]
 language = "en"
 multilingual = false
 src = "src"
 title = "Artistic Design Mastery from a Hobbyist - ADeM"
+
+[output.html]
+git-repository-url = "https://github.com/razcore-rad/adem/"
+edit-url-template = "https://github.com/razcore-rad/adem/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 2
