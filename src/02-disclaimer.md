@@ -18,7 +18,7 @@ The approach discussed here works best within a community because it relies on a
   <tr>
     <td>Răzvan Cosmin Rădulescu AKA razcore-rad</td>
     <td style="text-align: right">
-      <a href="https://linktr.ee/razcore.rad" target="blank">
+      <a href="https://linktr.ee/razcore.rad">
         <img style="height: 1.6rem" height="18px" src="./assets/images/icon-linktree.png">
       </a>
     </td>

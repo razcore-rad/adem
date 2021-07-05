@@ -15,7 +15,7 @@ Let’s turn to real life for an explanation.
 | ![](./assets/images/04-01-03-photo-original.png) | ![](./assets/images/04-01-03-photo-bright.png) | ![](./assets/images/04-01-03-photo-dark.png) |
 
 <p style="text-align: right; font-size: 1rem">
-  Photo by <a href="https://www.pexels.com/@alex-kozlov-3442124?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="blank">Alex Kozlov</a> from <a href="https://www.pexels.com/photo/city-man-people-woman-8402317/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="blank">Pexels</a>
+  Photo by <a href="https://www.pexels.com/@alex-kozlov-3442124?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Alex Kozlov</a> from <a href="https://www.pexels.com/photo/city-man-people-woman-8402317/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a>
 </p>
 
 As design students, we need to be critical about capturing our subject once we establish the light direction.
