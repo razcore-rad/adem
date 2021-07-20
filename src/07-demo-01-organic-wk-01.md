@@ -6,7 +6,9 @@ Pick a few reference images from each provided subject matter and decipher them 
 
 ![](./assets/images/07-01-01-understand-breakdown-trace.png)
 
-You don’t have to break each element into one continuous segment. For example, we can use 4 segments for the tail to better understand how it twists and turns.
+You don’t have to break each element into one continuous segment. For example, we can use a few segments for the tail to better understand how it twists and turns.
+
+This picture is a side-view so it isn't as important, but it's an organic structure that maybe in some other circumstance it needs a more detailed breakdown.
 
 Ideally you want to do it without tracing, but at this point, especially if you have a hard time understanding the forms, tracing is fine, but try not to rely too much on it.
 
@@ -22,9 +24,13 @@ Next, you’re going to pose your reference in perspective from different angles
 
 In some cases the subject can vary a lot, for example, the horns. In this case do a **breakdown for three-to-five of them**.
 
+When dealing with organic shapes that twist and turn wildly, break them down with simple forms. One such simple form is a bent cilinder.
+
+If the form is a bit too difficult don't hesitate to use a 3D software to understand the 3D volume.
+
 ![](./assets/images/07-01-01-understand-horns-variety.png)
 
-When dealing with organic shapes that twist and turn wildly, it’s best to draw through the form following the twist and connecting the curves where the shape closes off:
+Another method is to draw through the form following the twist and connecting the curves where the shape closes off:
 
 ![](./assets/images/07-01-01-understand-horns-twist.png)
 
@@ -84,5 +90,5 @@ If the references provided aren’t enough, then **find extra pictures with the 
 
 ![](./assets/images/07-01-01-invent-example.png)
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 

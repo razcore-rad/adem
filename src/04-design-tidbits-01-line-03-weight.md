@@ -71,5 +71,5 @@ The term ambient occlusion comes from computer graphics.
 
 I just wanted to mention that designing for animation is usually very different. They don’t care about the fancy line weights. They’re interested in clean same-thickness lines because they have to keep the drawings consistent across frames.
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 

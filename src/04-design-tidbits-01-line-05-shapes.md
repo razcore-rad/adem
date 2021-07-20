@@ -28,5 +28,5 @@ An exception to this explanation is that our brains can interpret secondary form
 
 Ultimately, **this is a balancing act between chaos and deliberate placement**. Too much in one direction, and we break the illusion.
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 

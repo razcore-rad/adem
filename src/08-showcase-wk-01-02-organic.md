@@ -29,3 +29,6 @@ Download the PureRef file by clicking the image:
 | [![](./assets/images/pureref-organic-wk-01-02/plant03.png)](https://upload.wikimedia.org/wikipedia/commons/2/23/Heliconia_latispatha_%28Starwiz%29.jpg) | <a href="https://commons.wikimedia.org/wiki/File:Heliconia_latispatha_(Starwiz).jpg">Justin Lebar</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons |
 | [![](./assets/images/pureref-organic-wk-01-02/plant04.png)](https://upload.wikimedia.org/wikipedia/commons/e/e5/Calochortus_tiburonensis_-_Tiburon_Mariposa_Lily_03_%283560215936%29.jpg) | <a href="https://commons.wikimedia.org/wiki/File:Calochortus_tiburonensis_-_Tiburon_Mariposa_Lily_03_(3560215936).jpg">Tom Hilton</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons |
 | [![](./assets/images/pureref-organic-wk-01-02/plant05.png)](https://upload.wikimedia.org/wikipedia/commons/6/66/Exotic_plant_4hw48i.jpg) | <a href="https://commons.wikimedia.org/wiki/File:Exotic_plant_4hw48i.jpg">Walter from Pinellas Park, Florida</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons |
+
+{{#include footer.md}}
+

@@ -8,5 +8,5 @@ Our brain is smart enough to fill in the dots. There’s so much that the brain 
 
 This works in our favor. Beginners make the mistake of drawing the whole contour all the time when we can imply so much of it.
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 

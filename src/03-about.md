@@ -31,7 +31,7 @@ While attending the program, students are encouraged to give the other participa
 
 ## Software
 
-<img style="height: 9rem" src="./assets/images/icon-pureref.png">
+<img style="height: 9rem" src="./assets/images/icons/pureref.png">
 
 We use [PureRef](https://www.pureref.com/), a free image reference software, for distributing reference image sets from online resources.
 
@@ -43,7 +43,7 @@ To download the PureRef file, click on the image preview for that week:
 
 [![](./assets/images/pureref-organic-wk-01-02.png)](./assets/references/organic-wk-01-02.pur)
 
-<img style="height: 9rem" src="./assets/images/icon-blender.png">
+<img style="height: 9rem" src="./assets/images/icons/blender.png">
 
 [Blender](https://www.blender.org/) is a free 3D software that can help us understand how forms turn in space and perspective while being affected by different lenses covering orthographic, one, two, three-point-perspective, and even fisheye.
 
@@ -51,11 +51,11 @@ I suggest using it from time to time by building rough 3D models of your complex
 
 This isn’t mandatory, but I think it dramatically improves our learning process.
 
-<img style="height: 9rem" src="./assets/images/icon-krita.png">
+<img style="height: 9rem" src="./assets/images/icons/krita.png">
 
 For completeness sake, I’ll mention that I’m using [Krita](https://krita.org/en/), a free painting software. I made my own brushes, which are part of [my larger package set](https://github.com/razcore-code/krita-resources) available for free.
 
 I prefer a traditional look even though I work digitally.
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 

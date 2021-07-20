@@ -16,14 +16,14 @@ The approach discussed here works best within a community because it relies on a
 
 <table style="width: 100%">
   <tr>
-    <td>Răzvan Cosmin Rădulescu AKA razcore-rad</td>
+    <td>Răzvan C. Rădulescu AKA razcore-rad</td>
     <td style="text-align: right">
       <a href="https://linktr.ee/razcore.rad">
-        <img style="height: 1.6rem" height="18px" src="./assets/images/icon-linktree.png">
+        <img style="height: 1.6rem" height="18px" src="./assets/images/icons/linktree.png">
       </a>
     </td>
   </tr>
 </table>
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 

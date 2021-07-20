@@ -66,5 +66,5 @@ An easy method is to overshoot past your lines, but on separate layers, and once
 
 Rinse and repeat as many times as necessary. Using shortcuts can be a swift process, and with enough practice, it can become your second nature.
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 

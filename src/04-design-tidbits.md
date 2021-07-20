@@ -15,5 +15,5 @@ I break these into three sections:
 
 **Pick and choose which techniques you want to use during your practice, and do it deliberately!**
 
-<p style="text-align: right; font-size: 1rem">Copyright ©2021 Răzvan Cosmin Rădulescu AKA razcore-rad</p>
+{{#include footer.md}}
 
